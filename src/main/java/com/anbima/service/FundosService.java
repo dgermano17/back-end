@@ -7,7 +7,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.anbima.dto.RequestAnaliseDados;
 import com.anbima.model.Fundo;
 import com.anbima.repository.FundosRepository;
 
@@ -17,7 +16,7 @@ public class FundosService {
 	@Autowired
 	private FundosRepository repository;
 
-	public ResponseEntity<List<Fundo>> getAllFundos(RequestAnaliseDados request) {
+	public ResponseEntity<List<Fundo>> getAllFundos() {
 		return new ResponseEntity<List<Fundo>>(this.repository.findAll(), HttpStatus.OK);
 	}
 	
