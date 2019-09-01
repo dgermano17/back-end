@@ -5,7 +5,7 @@
     	 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.embracon</groupId>
+	<groupId>com.anbima</groupId>
 	<artifactId>hackathon-anbima-back-java</artifactId>
 	<name>hackathon-anbima-back-java</name>
 	<version>0.0.1</version>
